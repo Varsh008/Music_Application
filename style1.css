@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #1db954;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logo h1 {
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #1db954;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background-color: #1aa34a;
+}
+
+/* Trending Music Section */
+.trending {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.trending h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.songs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.song-card {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.song-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.song-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.play-btn {
+    background-color: #1db954;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    background-color: #1aa34a;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+img{
+    height: 250px;
+}
